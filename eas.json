@@ -1,0 +1,25 @@
+{
+    "cli": {
+        "version": ">= 18.0.1",
+        "appExtensions": {
+            "com.antihung.docscanner": {
+                "appleTeamId": "XXXXXX"
+            }
+        }
+    },
+    "build": {
+        "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "preview": {
+            "android": {
+                "buildType": "apk"
+            }
+        },
+        "production": {}
+    },
+    "submit": {
+        "production": {}
+    }
+}
